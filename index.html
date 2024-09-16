@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hospital Managment System</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container justify-content-center">
+    <div class="row">
+      <div class="Hospital Logo col-md-6">
+        <div >
+            <img src="https://assets.onecompiler.app/42sbbkgr7/42sbbjz22/Screenshot%20(51).png" id="hospital_img" alt="Hospital Logo" class="img-fluid h-100 w-100">
+        </div>
+      </div>
+      <div class="col-md-6 lOGIN Form">
+        <div id="cross_img">
+            <img src="https://assets.onecompiler.app/42sbbkgr7/42sbrxzsd/Screenshot%20(61).png"  alt="cross Logo" class="img-fluid h-50 w-80">
+        </div>
+        <div class="card mt-5 p-4 Form">
+          <ul class="nav nav-tabs justify-content-center mb-3" id="loginTabs">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Patient</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Staff</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Admin</a>
+            </li>
+          </ul>
+          <form>
+            <div class="form-group">
+              <label for="userId">User ID or Mobile Number</label>
+              <input type="text" class="form-control" id="userId" placeholder="Enter User ID or Mobile Number">
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" class="form-control" id="password" placeholder="Enter Password">
+            </div>
+            <button type="submit" class="btn btn-success btn-block">Login</button>
+            <div class="text-center mt-3">
+              <a href="Registration.html" target="_blank">New Patient Registration</a> | <a href="forgot password.html" target="_blank">Forgot Password?</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
